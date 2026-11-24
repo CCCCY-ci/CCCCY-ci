@@ -16,7 +16,7 @@
 
 <p>I enjoy exploring new technologies, solving real-world problems, and turning ideas into practical software. Always curious, always building.</p>
 
-<p>I'm naturally curious, love exploring the unknown, and enjoy figuring out how things work. I believe the best way to learn is to build something yourself.</p>
+<p>I'm full of curiosity, love exploring the unknown, and enjoy figuring out how things work. I believe the best way to learn is to build something yourself.</p>
 
 <div id="overview">
 <img src="./assets/overview-heading.svg" alt="Overview" width="100%" height="64">
