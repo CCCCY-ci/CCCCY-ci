@@ -14,6 +14,10 @@
 
 <p>我是 CCCCY。我构建、实验并创造——从 AI 智能体到开发者工具，以及这之间的一切。</p>
 
+<p>我喜欢探索新技术，解决现实问题，并将想法转化为实用的软件。保持好奇，不断创造。</p>
+
+<p>我天生充满好奇心，热爱探索未知，热衷于弄清事物的运行原理。我相信学习一门技术的最好方式，就是亲手把它构建出来。</p>
+
 <div id="overview">
 <img src="./assets/overview-heading.zh-CN.svg" alt="概览" width="100%" height="64">
 <img src="./assets/github-overview-v2.zh-CN.svg" alt="GitHub 开源概览与统计数据" width="100%">

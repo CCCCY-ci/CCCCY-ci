@@ -14,6 +14,10 @@
 
 <p>I'm CCCCY. I build, experiment, and create — from AI agents to developer tools and everything in between.</p>
 
+<p>I enjoy exploring new technologies, solving real-world problems, and turning ideas into practical software. Always curious, always building.</p>
+
+<p>I'm naturally curious, love exploring the unknown, and enjoy figuring out how things work. I believe the best way to learn is to build something yourself.</p>
+
 <div id="overview">
 <img src="./assets/overview-heading.svg" alt="Overview" width="100%" height="64">
 <img src="./assets/github-overview-v2.svg" alt="GitHub overview with stars, followers, forks, star sources, and contributions" width="100%">
