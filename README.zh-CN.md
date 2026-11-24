@@ -16,7 +16,7 @@
 
 <div id="overview">
 <img src="./assets/overview-heading.zh-CN.svg" alt="概览" width="100%" height="64">
-<img src="./assets/github-overview.zh-CN.svg" alt="GitHub 开源概览与统计数据" width="100%">
+<img src="./assets/github-overview-v2.zh-CN.svg" alt="GitHub 开源概览与统计数据" width="100%">
 </div>
 
 <div id="repositories">

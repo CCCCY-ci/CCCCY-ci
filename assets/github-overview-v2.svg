@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" lang="en" width="840" height="264" viewBox="0 0 840 264" role="img" aria-labelledby="overview-title">
+<title id="overview-title">CCCCY-ci open-source overview</title>
+<defs><clipPath id="bar"><rect width="400" height="8" rx="4"/></clipPath></defs>
+<style>
+  text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;fill:#1f2328}
+  .hero{font-size:80px;font-weight:800;letter-spacing:-3px;fill:#2f5785}
+  .stat{font-size:24px;font-weight:700;letter-spacing:-0.5px}
+  .title{font-size:15px;font-weight:600}
+  .label{font-size:13px;fill:#59636e}
+  .body{font-size:14px}
+  .value{font-size:14px;fill:#59636e}
+  .track{fill:#eef3f9}
+  .tone0{fill:#2f5785}
+  .tone1{fill:#4e91e6}
+  .tone2{fill:#a8c8ed}
+  @media(prefers-color-scheme:dark){
+    text{fill:#f0f6fc}
+    .hero{fill:#58a6ff}
+    .stat,.title,.body{fill:#f0f6fc}
+    .label,.value{fill:#9198a1}
+    .track{fill:#1c2635}
+    .tone0{fill:#58a6ff}
+    .tone1{fill:#388bfd}
+    .tone2{fill:#1f6feb}
+  }
+</style>
+
+<!-- Stars on the left; four supporting metrics in a 2 x 2 grid on the right -->
+<text class="hero" x="0" y="68">98</text>
+<text class="label" x="0" y="100">Total stars · 11 repositories</text>
+<text class="stat" x="440" y="29">2</text>
+<text class="label" x="440" y="47">Followers</text>
+<text class="stat" x="640" y="29">12</text>
+<text class="label" x="640" y="47">Forks</text>
+<text class="stat" x="440" y="82">3</text>
+<text class="label" x="440" y="100">Contributed to</text>
+<text class="stat" x="640" y="82">273</text>
+<text class="label" x="640" y="100">Commits</text>
+
+<!-- Star sources and activity -->
+<g transform="translate(0, 148)">
+  <text class="title" x="0" y="0">Star sources</text>
+  <g transform="translate(0, 14)">
+    <rect class="track" width="400" height="8" rx="4"/>
+    <g clip-path="url(#bar)"><rect class="tone0" x="0.00" y="0" width="400.00" height="8"/><rect class="tone1" x="400.00" y="0" width="0.00" height="8"/><rect class="tone2" x="400.00" y="0" width="0.00" height="8"/></g>
+  </g>
+  <g transform="translate(0, 48)">
+    <circle class="tone0" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Owned repositories</text>
+    <text class="body" text-anchor="end" x="330" y="0">98</text>
+    <text class="value" text-anchor="end" x="400" y="0">100.0%</text>
+  </g>
+  <g transform="translate(0, 74)">
+    <circle class="tone1" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Member / collaborator</text>
+    <text class="body" text-anchor="end" x="330" y="0">0</text>
+    <text class="value" text-anchor="end" x="400" y="0">0.0%</text>
+  </g>
+  <g transform="translate(0, 100)">
+    <circle class="tone2" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Organizations</text>
+    <text class="body" text-anchor="end" x="330" y="0">0</text>
+    <text class="value" text-anchor="end" x="400" y="0">0.0%</text>
+  </g>
+</g>
+<g transform="translate(440, 148)">
+  <text class="title" x="0" y="0">Contributions</text>
+  <g transform="translate(0, 14)">
+    <rect class="track" width="400" height="8" rx="4"/>
+    <g clip-path="url(#bar)"><rect class="tone0" x="0.00" y="0" width="195.00" height="8"/><rect class="tone1" x="195.00" y="0" width="201.43" height="8"/><rect class="tone2" x="396.43" y="0" width="3.57" height="8"/></g>
+  </g>
+  <g transform="translate(0, 48)">
+    <circle class="tone0" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Commits</text>
+    <text class="body" text-anchor="end" x="330" y="0">273</text>
+    <text class="value" text-anchor="end" x="400" y="0">48.8%</text>
+  </g>
+  <g transform="translate(0, 74)">
+    <circle class="tone1" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Pull requests</text>
+    <text class="body" text-anchor="end" x="330" y="0">282</text>
+    <text class="value" text-anchor="end" x="400" y="0">50.4%</text>
+  </g>
+  <g transform="translate(0, 100)">
+    <circle class="tone2" cx="4" cy="-5" r="4"/>
+    <text class="body" x="16" y="0">Issues</text>
+    <text class="body" text-anchor="end" x="330" y="0">5</text>
+    <text class="value" text-anchor="end" x="400" y="0">0.9%</text>
+  </g>
+</g>
+</svg>

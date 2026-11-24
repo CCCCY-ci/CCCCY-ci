@@ -2,23 +2,26 @@
 <title id="overview-title">CCCCY-ci open-source overview</title>
 <defs><clipPath id="bar"><rect width="400" height="8" rx="4"/></clipPath></defs>
 <style>
-  text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;fill:#171717}
-  .hero{font-size:80px;font-weight:800;letter-spacing:-3px;fill:#171717}
+  text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;fill:#1f2328}
+  .hero{font-size:80px;font-weight:800;letter-spacing:-3px;fill:#2f5785}
   .stat{font-size:24px;font-weight:700;letter-spacing:-0.5px}
   .title{font-size:15px;font-weight:600}
-  .label{font-size:13px;fill:#737373}
+  .label{font-size:13px;fill:#59636e}
   .body{font-size:14px}
-  .value{font-size:14px;fill:#737373}
-  .track{fill:#f5f5f5}
-  .tone0{fill:#171717}
-  .tone1{fill:#737373}
-  .tone2{fill:#d4d4d4}
+  .value{font-size:14px;fill:#59636e}
+  .track{fill:#eef3f9}
+  .tone0{fill:#2f5785}
+  .tone1{fill:#4e91e6}
+  .tone2{fill:#a8c8ed}
   @media(prefers-color-scheme:dark){
-    text{fill:#fafafa}
-    .hero,.tone0{fill:#fafafa}
-    .label,.value,.tone1{fill:#a3a3a3}
-    .track{fill:#262626}
-    .tone2{fill:#525252}
+    text{fill:#f0f6fc}
+    .hero{fill:#58a6ff}
+    .stat,.title,.body{fill:#f0f6fc}
+    .label,.value{fill:#9198a1}
+    .track{fill:#1c2635}
+    .tone0{fill:#58a6ff}
+    .tone1{fill:#388bfd}
+    .tone2{fill:#1f6feb}
   }
 </style>
 
