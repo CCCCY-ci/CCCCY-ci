@@ -12,9 +12,7 @@
   <a href="mailto:qxyu0202@163.com"><img src="./assets/contact-buttons/email-v2.svg" alt="qxyu0202@163.com" width="236" height="36" align="absmiddle"></a>
 </p>
 
-<p>我是 CCCCY，专注于 AI 编码智能体、开发者工具与效率应用研发。</p>
-
-<p>开源项目包括 <a href="https://github.com/CCCCY-ci/ctxhop">ctxhop</a>（跨设备无缝接续 AI 编程会话）与 <a href="https://github.com/CCCCY-ci/wxmini-kit">wxmini-kit</a>（微信小程序代码包解析与解包工具）。</p>
+<p>我是 CCCCY。我构建、实验并创造——从 AI 智能体到开发者工具，以及这之间的一切。</p>
 
 <div id="overview">
 <img src="./assets/overview-heading.zh-CN.svg" alt="概览" width="100%" height="64">

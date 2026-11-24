@@ -12,9 +12,7 @@
   <a href="mailto:qxyu0202@163.com"><img src="./assets/contact-buttons/email-v2.svg" alt="qxyu0202@163.com" width="236" height="36" align="absmiddle"></a>
 </p>
 
-<p>I'm CCCCY, a builder and engineer focusing on AI coding agents, developer tooling, and productivity systems.</p>
-
-<p>Creator of <a href="https://github.com/CCCCY-ci/ctxhop">ctxhop</a> (seamless cross-machine AI coding session continuity) and <a href="https://github.com/CCCCY-ci/wxmini-kit">wxmini-kit</a>.</p>
+<p>I'm CCCCY. I build, experiment, and create — from AI agents to developer tools and everything in between.</p>
 
 <div id="overview">
 <img src="./assets/overview-heading.svg" alt="Overview" width="100%" height="64">
