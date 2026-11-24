@@ -1,0 +1,32 @@
+[
+  {
+    "name": "ctxhop",
+    "repository": "CCCCY-ci/ctxhop",
+    "description": "Continue the same AI coding session on another machine. No server, no account, your own storage.",
+    "description_zh": "在另一台设备上无缝继续同一个 AI 编程会话。无需中心服务器，无需注册账号，存储完全自持。"
+  },
+  {
+    "name": "wxmini-kit",
+    "repository": "CCCCY-ci/wxmini-kit",
+    "description": "A personal toolkit for inspecting and unpacking WeChat mini-program packages.",
+    "description_zh": "微信小程序代码包解析、扫描与解包工具套件。"
+  },
+  {
+    "name": "Cities-Skylines-Agent",
+    "repository": "CCCCY-ci/Cities-Skylines-Agent",
+    "description": "Commercial-grade Cities: Skylines 1 agent system with Node.js/TypeScript agent and C# bridge.",
+    "description_zh": "《城市：天际线》商业级 Agent 系统，包含 Node.js/TypeScript 智能体与 C# 桥接层。"
+  },
+  {
+    "name": "open-design",
+    "repository": "CCCCY-ci/open-design",
+    "description": "Open-source design engine plugin for AI coding agents: prototypes, landing pages, dashboards, and export.",
+    "description_zh": "开源 AI 编程智能体设计引擎插件：原型设计、落地页、数据看板与多格式导出。"
+  },
+  {
+    "name": "figma-mcp-rust",
+    "repository": "CCCCY-ci/figma-mcp-rust",
+    "description": "Figma MCP server built with Rust, providing full read/write workspace access via plugin without REST rate limits.",
+    "description_zh": "基于 Rust 构建的 Figma MCP 服务端，通过插件提供无速率限制的工作区完整读写能力。"
+  }
+]
