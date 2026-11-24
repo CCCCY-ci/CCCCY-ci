@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="216" height="36" viewBox="0 0 216 36" fill="none" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="236" height="36" viewBox="0 0 236 36" fill="none" role="img" aria-labelledby="title">
 <title id="title">Email: qxyu0202@163.com</title>
 <style>
 .outline{stroke:#171717}
@@ -6,8 +6,8 @@
 text{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:13.5px;font-weight:600}
 @media(prefers-color-scheme:dark){.outline{stroke:#fafafa}.dot,text{fill:#fafafa}}
 </style>
-<rect class="outline" x=".6" y=".6" width="214.8" height="34.8" rx="17.4" stroke-width="1.2"/>
-<text x="18" y="23">qxyu0202@163.com</text>
-<circle class="dot" cx="180" cy="18" r="4"/>
-<circle class="outline" cx="196" cy="18" r="3.8" stroke-width="1.4"/>
+<rect class="outline" x=".6" y=".6" width="234.8" height="34.8" rx="17.4" stroke-width="1.2"/>
+<text x="16" y="23">qxyu0202@163.com</text>
+<circle class="dot" cx="198" cy="18" r="4"/>
+<circle class="outline" cx="214" cy="18" r="3.8" stroke-width="1.4"/>
 </svg>

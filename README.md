@@ -8,8 +8,8 @@
 <p><strong>☕ Powered by coffee &amp; AI.</strong></p>
 
 <p align="left">
-  <a href="https://github.com/CCCCY-ci"><img src="./assets/contact-buttons/github.svg" alt="GitHub: @CCCCY-ci" width="216" height="36" align="absmiddle"></a>&nbsp;
-  <a href="mailto:qxyu0202@163.com"><img src="./assets/contact-buttons/email.svg" alt="qxyu0202@163.com" width="216" height="36" align="absmiddle"></a>
+  <a href="https://github.com/CCCCY-ci"><img src="./assets/contact-buttons/github-v2.svg" alt="GitHub: @CCCCY-ci" width="236" height="36" align="absmiddle"></a>&nbsp;
+  <a href="mailto:qxyu0202@163.com"><img src="./assets/contact-buttons/email-v2.svg" alt="qxyu0202@163.com" width="236" height="36" align="absmiddle"></a>
 </p>
 
 <p>I'm CCCCY, a builder and engineer focusing on AI coding agents, developer tooling, and productivity systems.</p>
