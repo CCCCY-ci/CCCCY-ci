@@ -238,32 +238,51 @@ async function fetchStats() {
     page++;
   }
 
-  // 3. GraphQL contributions
-  const gqlQuery = `
-    query($login: String!) {
+  // 3. GraphQL contributions (multi-year with private/restricted support)
+  const startYear = userData.created_at ? new Date(userData.created_at).getUTCFullYear() : 2021;
+  const currentYear = new Date().getUTCFullYear();
+  let yearlyCommits = 0;
+  let yearlyPRs = 0;
+  let yearlyIssues = 0;
+  let totalRestricted = 0;
+  let contributedTo = 0;
+
+  for (let y = startYear; y <= currentYear; y++) {
+    const from = new Date(Date.UTC(y, 0, 1)).toISOString();
+    const to = new Date(Date.UTC(y, 11, 31, 23, 59, 59)).toISOString();
+    const q = `query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
-        contributionsCollection {
+        contributionsCollection(from: $from, to: $to) {
           totalCommitContributions
           totalPullRequestContributions
           totalIssueContributions
-          totalRepositoryContributions
+          restrictedContributionsCount
         }
         repositoriesContributedTo(first: 100, contributionTypes: [COMMIT, ISSUE, PULL_REQUEST]) {
           totalCount
         }
       }
+    }`;
+    try {
+      const gqlRes = await fetch("https://api.github.com/graphql", {
+        method: "POST",
+        headers: { ...headers, "Content-Type": "application/json" },
+        body: JSON.stringify({ query: q, variables: { login, from, to } }),
+      });
+      const d = await gqlRes.json();
+      const c = d.data?.user?.contributionsCollection;
+      if (c) {
+        yearlyCommits += c.totalCommitContributions || 0;
+        yearlyPRs += c.totalPullRequestContributions || 0;
+        yearlyIssues += c.totalIssueContributions || 0;
+        totalRestricted += c.restrictedContributionsCount || 0;
+      }
+      if (d.data?.user?.repositoriesContributedTo?.totalCount) {
+        contributedTo = Math.max(contributedTo, d.data.user.repositoriesContributedTo.totalCount);
+      }
+    } catch (e) {
+      console.error(`Error querying contributions for year ${y}:`, e);
     }
-  `;
-  let gqlData = {};
-  try {
-    const gqlRes = await fetch("https://api.github.com/graphql", {
-      method: "POST",
-      headers: { ...headers, "Content-Type": "application/json" },
-      body: JSON.stringify({ query: gqlQuery, variables: { login } }),
-    });
-    gqlData = await gqlRes.json();
-  } catch (e) {
-    console.error("GraphQL error:", e);
   }
 
   // 4. Search counts
@@ -290,11 +309,10 @@ async function fetchStats() {
   const totalStars = ownedStars + memberStars;
   const totalForks = ownedRepos.reduce((acc, r) => acc + (r.forks_count || 0), 0);
 
-  const collection = gqlData.data?.user?.contributionsCollection;
-  const commits = Math.max(collection?.totalCommitContributions || 0, searchCommits);
-  const prs = Math.max(collection?.totalPullRequestContributions || 0, searchPRs);
-  const issues = Math.max(collection?.totalIssueContributions || 0, searchIssues);
-  const contributedTo = gqlData.data?.user?.repositoriesContributedTo?.totalCount || memberRepos.length;
+  // Commits includes public search commits + all private/restricted contributions!
+  const commits = Math.max(yearlyCommits, searchCommits) + totalRestricted;
+  const prs = Math.max(yearlyPRs, searchPRs);
+  const issues = Math.max(yearlyIssues, searchIssues);
 
   return {
     followers: userData.followers || 0,

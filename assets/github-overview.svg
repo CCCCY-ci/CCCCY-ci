@@ -34,7 +34,7 @@
 <text class="label" x="640" y="47">Forks</text>
 <text class="stat" x="440" y="82">3</text>
 <text class="label" x="440" y="100">Contributed to</text>
-<text class="stat" x="640" y="82">273</text>
+<text class="stat" x="640" y="82">789</text>
 <text class="label" x="640" y="100">Commits</text>
 
 <!-- Star sources and activity -->
@@ -67,25 +67,25 @@
   <text class="title" x="0" y="0">Contributions</text>
   <g transform="translate(0, 14)">
     <rect class="track" width="400" height="8" rx="4"/>
-    <g clip-path="url(#bar)"><rect class="tone0" x="0.00" y="0" width="195.00" height="8"/><rect class="tone1" x="195.00" y="0" width="201.43" height="8"/><rect class="tone2" x="396.43" y="0" width="3.57" height="8"/></g>
+    <g clip-path="url(#bar)"><rect class="tone0" x="0.00" y="0" width="293.31" height="8"/><rect class="tone1" x="293.31" y="0" width="104.83" height="8"/><rect class="tone2" x="398.14" y="0" width="1.86" height="8"/></g>
   </g>
   <g transform="translate(0, 48)">
     <circle class="tone0" cx="4" cy="-5" r="4"/>
     <text class="body" x="16" y="0">Commits</text>
-    <text class="body" text-anchor="end" x="330" y="0">273</text>
-    <text class="value" text-anchor="end" x="400" y="0">48.8%</text>
+    <text class="body" text-anchor="end" x="330" y="0">789</text>
+    <text class="value" text-anchor="end" x="400" y="0">73.3%</text>
   </g>
   <g transform="translate(0, 74)">
     <circle class="tone1" cx="4" cy="-5" r="4"/>
     <text class="body" x="16" y="0">Pull requests</text>
     <text class="body" text-anchor="end" x="330" y="0">282</text>
-    <text class="value" text-anchor="end" x="400" y="0">50.4%</text>
+    <text class="value" text-anchor="end" x="400" y="0">26.2%</text>
   </g>
   <g transform="translate(0, 100)">
     <circle class="tone2" cx="4" cy="-5" r="4"/>
     <text class="body" x="16" y="0">Issues</text>
     <text class="body" text-anchor="end" x="330" y="0">5</text>
-    <text class="value" text-anchor="end" x="400" y="0">0.9%</text>
+    <text class="value" text-anchor="end" x="400" y="0">0.5%</text>
   </g>
 </g>
 </svg>
