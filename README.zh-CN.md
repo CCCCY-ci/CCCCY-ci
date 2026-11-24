@@ -28,27 +28,27 @@
 <!-- repositories starts -->
 <div>
 <p>
-  <img align="right" src="./assets/repository-dates/CCCCY-ci-ctxhop.svg" alt="Created 2026-11-24" width="112" height="24">
-  <strong><a href="https://github.com/CCCCY-ci/ctxhop">ctxhop</a></strong> &nbsp; <span>★&nbsp;0</span><br>
+  <img align="right" src="./assets/repository-dates/CCCCY-ci-ctxhop.svg" alt="Created 2026-08-10" width="112" height="24">
+  <strong><a href="https://github.com/CCCCY-ci/ctxhop">ctxhop</a></strong> &nbsp; <span>★&nbsp;64</span><br>
   在另一台设备上无缝继续同一个 AI 编程会话。无需中心服务器，无需注册账号，存储完全自持。
 </p>
 <p>
-  <img align="right" src="./assets/repository-dates/CCCCY-ci-wxmini-kit.svg" alt="Created 2026-11-24" width="112" height="24">
-  <strong><a href="https://github.com/CCCCY-ci/wxmini-kit">wxmini-kit</a></strong> &nbsp; <span>★&nbsp;0</span><br>
+  <img align="right" src="./assets/repository-dates/CCCCY-ci-wxmini-kit.svg" alt="Created 2026-08-16" width="112" height="24">
+  <strong><a href="https://github.com/CCCCY-ci/wxmini-kit">wxmini-kit</a></strong> &nbsp; <span>★&nbsp;34</span><br>
   微信小程序代码包解析、扫描与解包工具套件。
 </p>
 <p>
-  <img align="right" src="./assets/repository-dates/CCCCY-ci-Cities-Skylines-Agent.svg" alt="Created 2026-11-24" width="112" height="24">
+  <img align="right" src="./assets/repository-dates/CCCCY-ci-Cities-Skylines-Agent.svg" alt="Created 2026-07-29" width="112" height="24">
   <strong><a href="https://github.com/CCCCY-ci/Cities-Skylines-Agent">Cities-Skylines-Agent</a></strong> &nbsp; <span>★&nbsp;0</span><br>
   《城市：天际线》商业级 Agent 系统，包含 Node.js/TypeScript 智能体与 C# 桥接层。
 </p>
 <p>
-  <img align="right" src="./assets/repository-dates/CCCCY-ci-open-design.svg" alt="Created 2026-11-24" width="112" height="24">
+  <img align="right" src="./assets/repository-dates/CCCCY-ci-open-design.svg" alt="Created 2026-09-03" width="112" height="24">
   <strong><a href="https://github.com/CCCCY-ci/open-design">open-design</a></strong> &nbsp; <span>★&nbsp;0</span><br>
   开源 AI 编程智能体设计引擎插件：原型设计、落地页、数据看板与多格式导出。
 </p>
 <p>
-  <img align="right" src="./assets/repository-dates/CCCCY-ci-figma-mcp-rust.svg" alt="Created 2026-11-24" width="112" height="24">
+  <img align="right" src="./assets/repository-dates/CCCCY-ci-figma-mcp-rust.svg" alt="Created 2026-08-28" width="112" height="24">
   <strong><a href="https://github.com/CCCCY-ci/figma-mcp-rust">figma-mcp-rust</a></strong> &nbsp; <span>★&nbsp;0</span><br>
   基于 Rust 构建的 Figma MCP 服务端，通过插件提供无速率限制的工作区完整读写能力。
 </p>
